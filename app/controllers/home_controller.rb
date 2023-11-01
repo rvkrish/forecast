@@ -25,7 +25,7 @@ class HomeController < ApplicationController
   # This method sets the @address and @zip_code based on the parameters
   def verify_cache_set_address
     @address = params[:address]
-
+    @zip_code = params[:zipcode]
     # Check if there is a cached forecast for the provided zip code
     if @zip_code
       @cached_forecast = Rails.cache.read(@zip_code)
