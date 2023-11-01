@@ -1,0 +1,22 @@
+<div class="text-center">
+  <div class="mx-auto" style="width: 500px;">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Weather Forecast</h5>
+        <dl class="row">
+          <dt class="col-sm-6">Current Temperature</dt>
+          <dd class="col-sm-6"><%= forecast['current_temp'] %>°C</dd>
+
+          <dt class="col-sm-6">High Temperature</dt>
+          <dd class="col-sm-6"><%= forecast['high_temp'] %>°C</dd>
+
+          <dt class="col-sm-6">Low Temperature</dt>
+          <dd class="col-sm-6"><%= forecast['low_temp'] %>°C</dd>
+
+          <dt class="col-sm-6">Extended Forecast</dt>
+          <dd class="col-sm-6"><%= forecast['extended_forecast'] %></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>

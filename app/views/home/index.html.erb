@@ -1,0 +1,8 @@
+<%= form_with(url: home_path, method: 'get', class: "card  text-center") do |form|  %>
+    <%= render 'forecast_form' , form: form%>
+<% end %>
+
+<% if @forecast.present? %>
+<%= render 'forecast', forecast: @forecast %>
+<%end%>
+

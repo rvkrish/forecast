@@ -1,0 +1,14 @@
+
+
+<h1>Weather Forecast</h1><br />
+<div class="form-group">
+<%= form.label :address, 'Enter an address' %>
+<%= form.text_field :address, required: true, placeholder: 'e.g., HYDERABAD, NALLAGANDLA' %><br /><br />
+</div>
+<div class="form-group">
+<%= form.label :zipcode, 'Zip Code' %>
+<%= form.text_field :zipcode, required: true %><br /><br />
+</div>
+<div class="form-group">
+<%= form.submit 'Get Forecast', class: "btn btn-primary"%>
+</div>
