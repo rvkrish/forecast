@@ -10,7 +10,7 @@
 
 **The Assumptions I made:**
 
-- ` `We can fetch the data from 3rd party services but must provide respective API keys. For convenience, I used the local database to store the temperature-related information.
+- We can fetch the data from 3rd party services but must provide respective API keys. For convenience, I used the local database to store the temperature-related information.
 - Zip code as a separate field in the address.
 - Address as a single field.
 
@@ -22,20 +22,34 @@
 - Start redis server
 - Start the Redis server.
 
-Screenshots to feed the data.
+Screenshot to feed the data.
+
+Below is the screenshot where I entered the weather information
+
+<img src='https://github.com/rvkrish/forecast/blob/7c5e463eee2cf06ce8f1870e3553a40ba3ebd766/public/screenshots/Form%20to%20enter%20data.png' width='250'>
 
 Screenshot of the index page.
 
-When the known address is given
+<img src='https://github.com/rvkrish/forecast/blob/7c5e463eee2cf06ce8f1870e3553a40ba3ebd766/public/screenshots/index.png' width='500'>
 
-When an unknown address is given.
+When data not completely fed.
+<img src='https://github.com/rvkrish/forecast/blob/7c5e463eee2cf06ce8f1870e3553a40ba3ebd766/public/screenshots/emptydata.png' width='500'>
+
+When the known address is given.
+<img src='https://github.com/rvkrish/forecast/blob/7c5e463eee2cf06ce8f1870e3553a40ba3ebd766/public/screenshots/data_in_db.png' width='500'>
 
 When an unknown address with a cached zip code is given.
+<img src='https://github.com/rvkrish/forecast/blob/7c5e463eee2cf06ce8f1870e3553a40ba3ebd766/public/screenshots/cached_with_zipcode.png' width='500'>
 
+When an unknown address is given.
+<img src='https://github.com/rvkrish/forecast/blob/7c5e463eee2cf06ce8f1870e3553a40ba3ebd766/public/screenshots/incase%20data%20is%20not%20present.png' width='500'>
 
 **What I have written in the code:**
 
 - Actual code to realize the logic.
+- Used Redis server to cache data with 30 minutes of expiry. 
+- Minimum UI validations.
+- bootstrap CDN(Just for minimum look)
 - Supporting scaffold for entering weather information and address.
 - Specs(Unit test cases) for both controller and model tried to cover most cases.
 - Comments for logic and specs which I have written.
@@ -43,8 +57,9 @@ When an unknown address with a cached zip code is given.
 **What can be improved:**
 
 - We can add a coverage report.
+- flash messages and notices.
 - We can include integration test cases.
-- Can add some more edge cases …
+- Can add some more edge cases.
 
 
 
