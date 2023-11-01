@@ -32,16 +32,16 @@ Screenshot of the index page.
 
 <img src='https://github.com/rvkrish/forecast/blob/7c5e463eee2cf06ce8f1870e3553a40ba3ebd766/public/screenshots/index.png' width='500'>
 
-When data not completely fed.
+When data not completely fed.<br />
 <img src='https://github.com/rvkrish/forecast/blob/7c5e463eee2cf06ce8f1870e3553a40ba3ebd766/public/screenshots/emptydata.png' width='500'>
 
-When the known address is given.
+When the known address is given.<br />
 <img src='https://github.com/rvkrish/forecast/blob/7c5e463eee2cf06ce8f1870e3553a40ba3ebd766/public/screenshots/data_in_db.png' width='500'>
 
-When an unknown address with a cached zip code is given.
+When an unknown address with a cached zip code is given.<br />
 <img src='https://github.com/rvkrish/forecast/blob/7c5e463eee2cf06ce8f1870e3553a40ba3ebd766/public/screenshots/cached_with_zipcode.png' width='500'>
 
-When an unknown address is given.
+When an unknown address is given.<br />
 <img src='https://github.com/rvkrish/forecast/blob/7c5e463eee2cf06ce8f1870e3553a40ba3ebd766/public/screenshots/incase%20data%20is%20not%20present.png' width='500'>
 
 **What I have written in the code:**
