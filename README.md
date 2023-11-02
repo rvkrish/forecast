@@ -18,9 +18,9 @@
 
 - Download the source code.
 - Run the **bundle install** command.
-- Install redis-serve.
+- Install redis serve.
 - Start redis server
-- Start the Redis server.
+- Start the rails server.
 
 Screenshot to feed the data.
 
